@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let tiengAnh = ["Cat","Dog","Fish"];
+    let tiengViet = ["Mèo","Chó","Cá"];
+    let tuCanTim = prompt("Nhập vào từ tiếng Anh cần dịch: ");
+    let index = tiengAnh.indexOf(tuCanTim);
+    if (index==-1){
+        alert("Không có");
+    }else {
+        alert(tiengViet[index]);
+    }
+</script>
+</body>
+</html>
